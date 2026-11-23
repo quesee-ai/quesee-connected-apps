@@ -1,6 +1,6 @@
 # QueSee Connected Apps
 
-Ask your AI assistant about every scored customer call, every agent and every subscriber at risk of leaving, using your own QueSee data.
+Ask your AI assistant why customers call, chat and cancel, and which subscribers are at risk of leaving, using your own QueSee data.
 
 QueSee joins every customer call, account and network signal into one record per customer, scores each call against your own SOP, and flags who is about to leave, why, and what to do next. Connected Apps brings that record into the assistant your team already uses, through one read-only connector.
 
@@ -18,7 +18,7 @@ QueSee joins every customer call, account and network signal into one record per
 
 | Assistant | What's here |
 | - | - |
-| Claude | [`claude/`](claude): a plugin that bundles the connector with skills for weekly CX briefs, agent coaching, save lists and call drivers |
+| Claude | [`claude/`](claude): a plugin that bundles the connector with skills for weekly CX briefs, call review, save lists, call drivers and competitor mentions |
 | Other assistants that support MCP connectors with sign-in | Add `https://api.quesee.ai/mcp` as a custom connector, sign in to QueSee, and select **Allow** |
 
 ## Before you start
