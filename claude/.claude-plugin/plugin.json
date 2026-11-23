@@ -1,0 +1,24 @@
+{
+  "name": "quesee",
+  "displayName": "QueSee",
+  "version": "1.0.0",
+  "description": "Ask Claude about 100% of your scored customer calls, your agents and the subscribers at risk of leaving. Weekly CX briefs, agent coaching, save lists and call drivers from your own QueSee data. Read-only, with names and contact details replaced.",
+  "author": {
+    "name": "QueSee AI, Inc.",
+    "url": "https://www.quesee.ai"
+  },
+  "homepage": "https://www.quesee.ai/connected-apps",
+  "privacyPolicyUrl": "https://www.quesee.ai/legal/privacy",
+  "repository": "https://github.com/quesee-ai/quesee-connected-apps",
+  "license": "MIT",
+  "keywords": [
+    "customer-experience",
+    "retention",
+    "churn",
+    "call-scoring",
+    "agent-coaching",
+    "contact-center",
+    "broadband",
+    "service-providers"
+  ]
+}
