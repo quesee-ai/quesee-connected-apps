@@ -10,7 +10,7 @@ One record per scored call.
 | - | - |
 | `cdr_id` | Call id |
 | `time_start` | When the call started |
-| `agent_label` | The agent, shown as a label such as "Agent 07" |
+| `agent_label` | The agent on the call, shown as a label such as "Agent 07". Shown on single calls only; never grouped, scored or ranked |
 | `department` | The department that took the call |
 | `call_direction` | Inbound, Outbound or Internal |
 | `call_type` | The organization's own call type |
@@ -27,7 +27,7 @@ One record per scored call.
 | `customer_id`, `crm_account_id` | The subscriber on the call |
 | `quesee_url`, `customer_url` | Links to the call and the subscriber in QueSee |
 
-Groupable call fields: `call_direction`, `call_type`, `department`, `agent_label`, `resolution_status`, `sale_status`, `retention_outcome`, `lead_source`, `save_offer`, `transaction_type`, `active_flags`, `smart_fields`, `sections`, `criteria`.
+Groupable call fields: `call_direction`, `call_type`, `department`, `resolution_status`, `sale_status`, `retention_outcome`, `lead_source`, `save_offer`, `transaction_type`, `active_flags`, `smart_fields`, `sections`, `criteria`.
 
 ## Customers
 
