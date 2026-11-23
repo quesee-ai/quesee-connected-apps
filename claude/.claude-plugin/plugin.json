@@ -8,7 +8,10 @@
     "url": "https://www.quesee.ai"
   },
   "homepage": "https://www.quesee.ai/connected-apps",
+  "documentationUrl": "https://github.com/quesee-ai/quesee-connected-apps/tree/main/claude#readme",
+  "supportUrl": "https://www.quesee.ai/contact",
   "privacyPolicyUrl": "https://www.quesee.ai/legal/privacy",
+  "termsOfServiceUrl": "https://www.quesee.ai/legal/terms",
   "repository": "https://github.com/quesee-ai/quesee-connected-apps",
   "license": "MIT",
   "keywords": [
