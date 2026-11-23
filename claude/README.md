@@ -1,16 +1,23 @@
-# QueSee for Claude
+# QueSee: Call Scoring, Churn Risk & Customer Experience
 
-Ask Claude about every scored customer call, every agent and every subscriber at risk of leaving, using your own QueSee data.
+Find out why customers call, complain and cancel, which agents need coaching, and which customers are about to leave, by asking Claude about 100% of your customer calls.
 
-QueSee joins every customer call, account and network signal into one record per customer, scores each call against your own SOP, and flags who is about to leave, why, and what to do next. This plugin brings that record into Claude: the QueSee connector gives Claude read-only access, and the skills teach Claude how your team uses it.
+Most contact centers review fewer than 5% of their calls by hand. QueSee scores every call against your own SOP and keeps one record per customer with churn risk, the reason in the customer's own words, and what to do next. This plugin brings that record into Claude: the QueSee connector gives Claude read-only access, and the skills turn it into the reports your team already needs.
+
+**Built for:** contact center, customer support, quality assurance, CX and retention teams at broadband, telecom and other service providers.
 
 ## What you can ask
 
-- "Give me the weekly CX brief for last week." (`cx-weekly-brief`)
-- "Which agents need coaching this month, and on which SOP steps?" (`agent-coaching`)
-- "Who might cancel this week, and what should we do for each one?" (`save-list`)
-- "What drove calls this month, and what changed from last month?" (`call-drivers`)
-- Any other question about your calls, scores, agents or subscribers. The `quesee-data` skill sets the query rules: count with aggregates over 100% of records, never estimate from a sample, and link every call and subscriber back to QueSee.
+| You want to know | Ask Claude | Skill |
+| - | - | - |
+| How last week went | "Give me the weekly CX report for last week." | `cx-weekly-brief` |
+| Who needs coaching, and on what | "Which agents skip the verification step in our SOP, and which calls should I review with them?" | `agent-coaching` |
+| Who is about to cancel | "Which customers are at risk of churning this week, and what should we do for each one?" | `save-list` |
+| Why customers call | "What are the top reasons customers called this month, and what changed from last month?" | `call-drivers` |
+| Who customers are switching to | "Which competitors do customers mention, and why?" | `competitor-mentions` |
+| Anything else | "How many calls were escalated last month, by department?" | `quesee-data` |
+
+The `quesee-data` skill sets the rules for every answer: count over 100% of records, never estimate from a sample, and link every call and customer back to QueSee so you can check it.
 
 ## What's included
 
@@ -18,17 +25,18 @@ QueSee joins every customer call, account and network signal into one record per
 | - | - |
 | QueSee connector (`.mcp.json`) | Connects Claude to `https://api.quesee.ai/mcp` with three read-only tools: `quesee_schema`, `quesee_values` and `quesee_query` |
 | `quesee-data` skill | How to query QueSee correctly: fields, limits, links, privacy and errors |
-| `cx-weekly-brief` skill | A one-screen weekly brief with changes from last week |
-| `agent-coaching` skill | Coaching plans per agent, with the criteria they miss and calls to review |
-| `save-list` skill | A ranked list of at-risk subscribers, with reasons, open promises and next steps |
-| `call-drivers` skill | Why customers call, what changed, and the fixes by team |
+| `cx-weekly-brief` skill | A one-screen weekly customer experience report, with changes from last week |
+| `agent-coaching` skill | Coaching plans per agent: the SOP steps they miss and the calls to review |
+| `save-list` skill | A ranked list of customers at risk of churning, with reasons, open promises and next steps |
+| `call-drivers` skill | Top call reasons and complaints, what changed, and the fix each team owns |
+| `competitor-mentions` skill | Which competitors customers name, why, and who is deciding now |
 
 The plugin contains only Markdown and JSON. It runs no code on your computer.
 
 ## Before you start
 
 - You need a QueSee account with a manager or admin role.
-- Connected apps are off by default. QueSee turns them on for your organization, and your admin picks who gets access in QueSee under **Settings > Connections > Connected apps**. To turn them on, [contact QueSee](https://www.quesee.ai/contact).
+- Connected apps are off by default. QueSee turns them on for your organization, and your admin picks who gets access in QueSee under **Settings > Connections > Connected apps**. To turn them on, or to start with QueSee, [contact QueSee](https://www.quesee.ai/contact).
 
 ## Set up
 
@@ -41,7 +49,7 @@ The plugin contains only Markdown and JSON. It runs no code on your computer.
 
 - **Read-only:** the connector can't change anything in QueSee.
 - **What is sent:** Claude sends structured queries (fields, filters and date ranges) to `api.quesee.ai` over HTTPS, with OAuth sign-in. QueSee returns the matching results.
-- **What is redacted:** names, phone numbers, emails and addresses are replaced before results leave QueSee. Agents appear as labels such as "Agent 07". A name typed only inside a free-text note, with no matching customer or agent record, can come through.
+- **Redacted:** names, phone numbers, emails and addresses are replaced before results leave QueSee, and agents appear as labels such as "Agent 07". A name typed only inside a free-text note, with no matching customer or agent record, can come through.
 - **Never sent:** recordings and transcripts.
 - **Same view as in QueSee:** each person sees only the departments and flags they can see in QueSee.
 - **Access you control:** access is turned on per person, can be turned off at any time, and ends after 90 days.
