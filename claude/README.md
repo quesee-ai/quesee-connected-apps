@@ -1,8 +1,8 @@
-# QueSee: Call Scoring, Churn Risk & Customer Experience
+# QueSee: Customer Experience, Churn Risk & Quality Scoring
 
-Find out why customers call, complain and cancel, which agents need coaching, and which customers are about to leave, by asking Claude about 100% of your customer calls.
+Find out why customers call, chat, open tickets and cancel, which agents need coaching, and which customers are about to leave, by asking Claude about 100% of your customer interactions.
 
-Most contact centers review fewer than 5% of their calls by hand. QueSee scores every call against your own SOP and keeps one record per customer with churn risk, the reason in the customer's own words, and what to do next. This plugin brings that record into Claude: the QueSee connector gives Claude read-only access, and the skills turn it into the reports your team already needs.
+Most contact centers review fewer than 5% of their conversations by hand. QueSee joins every call, chat, ticket, order, bill and network signal into one record per customer, scores conversations against your own SOP, and flags who is about to leave, why in the customer's own words, and what to do next. This plugin brings that record into Claude: the QueSee connector gives Claude read-only access, and the skills turn it into the reports your team already needs.
 
 **Built for:** contact center, customer support, quality assurance, CX and retention teams at broadband, telecom and other service providers.
 
@@ -59,7 +59,7 @@ The plugin contains only Markdown and JSON. It runs no code on your computer.
 
 ## Limits
 
-- The connector covers calls, customers, assessments and events. Chats and tickets aren't available through it.
+- Through this connector, Claude reads scored calls, customer records, assessments and events. Customer records reflect every source your organization connects to QueSee (calls, chats, tickets, billing, network). Individual chat and ticket scores aren't available through the connector yet.
 - Rows come back up to 200 per page. The rows window is up to 92 days, and the aggregate window up to 366 days.
 - Some fields and entities, such as assessments, exist only on some QueSee plans.
 
