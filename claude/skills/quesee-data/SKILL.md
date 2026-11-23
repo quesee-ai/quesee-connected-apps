@@ -1,11 +1,11 @@
 ---
 name: quesee-data
-description: Answer questions about customer calls, call quality scores, agent performance, SOP and script compliance, customer churn risk, cancellations, retention and competitor mentions from QueSee data (quesee_schema, quesee_values, quesee_query). Use whenever the user asks about their contact center, call center, support team, customer complaints, customers at risk of leaving, or why customers call or cancel, and the QueSee connector is connected.
+description: Answer questions about customer calls, chats, tickets, conversation quality scores, agent performance, SOP and script compliance, customer churn risk, cancellations, retention and competitor mentions from QueSee data (quesee_schema, quesee_values, quesee_query). Use whenever the user asks about their contact center, call center, support team, customer complaints, customers at risk of leaving, or why customers call or cancel, and the QueSee connector is connected.
 ---
 
 # Answering from QueSee data
 
-QueSee scores every customer call against the organization's own standard (its SOP) and keeps one record per subscriber with churn risk, reasons and history. The QueSee connector gives read-only access to that data through three tools:
+QueSee joins every call, chat, ticket, bill and network signal into one record per customer, scores conversations against the organization's own standard (its SOP), and keeps churn risk, reasons and history on that record. The QueSee connector gives read-only access to that data through three tools:
 
 - `quesee_schema`: the fields, this organization's exact values, the dates covered, the user's access scope and the query limits
 - `quesee_values`: the values a field takes, with counts
@@ -36,7 +36,7 @@ QueSee scores every customer call against the organization's own standard (its S
 
 - Names, phone numbers, emails and addresses are replaced before data leaves QueSee. Agents appear as labels such as "Agent 07". Report ids and labels as they come, and don't try to work out who a person is.
 - The user sees only the departments and flags they can see in QueSee.
-- The connector covers calls, customers, assessments and events. Chats and tickets aren't available through it.
+- The connector covers scored calls, customers, assessments and events. Customer records already reflect the organization's connected chats, tickets, billing and network data, but individual chat and ticket scores aren't available through it. When the user asks about chats or tickets, answer from the customer records and say which part needs the QueSee app.
 - It is read-only. If the user asks to change a scorecard, a flag or a setting, tell them where to do it in the QueSee app.
 
 ## When something fails
