@@ -18,7 +18,7 @@ QueSee joins every customer call, account and network signal into one record per
 
 | Assistant | What's here |
 | - | - |
-| Claude | [`claude/`](claude): a plugin that bundles the connector with skills for weekly CX briefs, call review, save lists, call drivers and competitor mentions |
+| Claude | [`claude/`](claude): a plugin that bundles the connector with skills for weekly CX briefs, team coaching, save lists, call drivers and competitor mentions |
 | Other assistants that support MCP connectors with sign-in | Add `https://api.quesee.ai/mcp` as a custom connector, sign in to QueSee, and select **Allow** |
 
 ## Before you start
