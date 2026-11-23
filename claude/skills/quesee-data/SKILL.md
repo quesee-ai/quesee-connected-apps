@@ -1,6 +1,6 @@
 ---
 name: quesee-data
-description: Answer questions about customer calls, chats, tickets, conversation quality scores, agent performance, SOP and script compliance, customer churn risk, cancellations, retention and competitor mentions from QueSee data (quesee_schema, quesee_values, quesee_query). Use whenever the user asks about their contact center, call center, support team, customer complaints, customers at risk of leaving, or why customers call or cancel, and the QueSee connector is connected.
+description: Answer questions about customer calls, chats, tickets, conversation quality scores, SOP and script compliance, customer churn risk, cancellations, retention and competitor mentions from QueSee data (quesee_schema, quesee_values, quesee_query). Use whenever the user asks about their contact center, call center, support team, customer complaints, customers at risk of leaving, or why customers call or cancel, and the QueSee connector is connected.
 ---
 
 # Answering from QueSee data
@@ -36,6 +36,7 @@ QueSee joins every call, chat, ticket, bill and network signal into one record p
 
 - Names, phone numbers, emails and addresses are replaced before data leaves QueSee. Agents appear as labels such as "Agent 07". Report ids and labels as they come, and don't try to work out who a person is.
 - The user sees only the departments and flags they can see in QueSee.
+- Never score, rank or compare individual employees, even by label. Report scores for the team or a department, and coaching notes on single calls. If asked for a per-agent ranking, offer the team view and the calls worth reviewing instead.
 - The connector covers scored calls, customers, assessments and events. Customer records already reflect the organization's connected chats, tickets, billing and network data, but individual chat and ticket scores aren't available through it. When the user asks about chats or tickets, answer from the customer records and say which part needs the QueSee app.
 - It is read-only. If the user asks to change a scorecard, a flag or a setting, tell them where to do it in the QueSee app.
 
