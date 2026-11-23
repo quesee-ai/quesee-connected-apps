@@ -1,6 +1,6 @@
 ---
 name: save-list
-description: Build a ranked list of customers at risk of churning from QueSee data, with why each one is at risk in their own words, what was promised to them and the next step to save them. Use when the user asks who might cancel or churn, which customers are at risk, who to call today, for a retention, save or win-back list, who asked to cancel or mentioned a competitor, or how to reduce churn.
+description: Build a ranked list of customers at risk of cancelling from QueSee data, with why each one is at risk in their own words, what was promised to them and the next step to keep them. Use when the user asks why customers or subscribers are cancelling or disconnecting, who might cancel or churn, which customers are at risk, who to call today, what customers said before they disconnected, which accounts with repeat trouble tickets may leave, who mentioned switching to a competitor, or how to reduce churn.
 ---
 
 # Save list
