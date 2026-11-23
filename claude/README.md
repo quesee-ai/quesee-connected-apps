@@ -2,7 +2,7 @@
 
 Find out why customers call, chat, open tickets and cancel, which agents need coaching, and which customers are about to leave, by asking Claude about 100% of your customer interactions.
 
-Most contact centers review fewer than 5% of their conversations by hand. QueSee joins every call, chat, ticket, order, bill and network signal into one record per customer, scores conversations against your own SOP, and flags who is about to leave, why in the customer's own words, and what to do next. This plugin brings that record into Claude: the QueSee connector gives Claude read-only access, and the skills turn it into the reports your team already needs.
+Most contact centers review fewer than 5% of their conversations by hand. QueSee turns every call, chat and ticket into structured, queryable data (a score against your own SOP, the reason in the customer's own words, churn risk, competitors named) and joins it with order, billing and network data in one record per customer, so you can see who is about to leave, why, and what to do next. This plugin brings that record into Claude: the QueSee connector gives Claude read-only access, and the skills turn it into the reports your team already needs.
 
 **Built for:** contact center, customer support, quality assurance, CX and retention teams at broadband, telecom and other service providers.
 
