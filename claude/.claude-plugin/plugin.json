@@ -2,7 +2,7 @@
   "name": "quesee",
   "displayName": "QueSee: Customer Experience, Churn Risk & Quality Scoring",
   "version": "1.0.0",
-  "description": "Find out why customers call, chat, open tickets and cancel. QueSee joins every call, chat, ticket, bill and network signal into one record per customer, scores conversations against your own SOP, coaches agents on the exact steps they miss, and ranks customers at risk of churning with the next step to save each one. Built for contact center, support, CX and retention teams at broadband, telecom and other service providers. Read-only, with names and contact details replaced.",
+  "description": "Find out why customers call, chat, open tickets and cancel. QueSee turns every call, chat and ticket into structured, queryable data: a score against your own SOP, the reason in the customer's words, churn risk and competitors named, joined with billing and network data in one record per customer. Ask Claude to coach agents, explain what drives contacts, and rank customers at risk of churning with the next step to save each one. Built for contact center, support, CX and retention teams at broadband, telecom and other service providers. Read-only, with names and contact details replaced.",
   "author": {
     "name": "QueSee AI, Inc.",
     "url": "https://www.quesee.ai"
