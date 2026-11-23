@@ -1,7 +1,7 @@
 {
   "name": "quesee",
   "displayName": "QueSee: Why Customers Call, Chat & Cancel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ask Claude why customers call, chat, open tickets and cancel, in their own words. QueSee turns every conversation into structured, queryable data joined with billing and network data: what drives contacts, which customers are at risk and what to do for each one, which competitors they name, and which calls are worth reviewing with each agent. For broadband, telecom and other service providers. Read-only, with names and contact details replaced.",
   "author": {
     "name": "QueSee AI, Inc.",
