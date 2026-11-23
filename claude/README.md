@@ -1,10 +1,10 @@
-# QueSee: Customer Experience, Churn Risk & Quality Scoring
+# QueSee: Why Customers Call, Chat & Cancel
 
-Find out why customers call, chat, open tickets and cancel, which agents need coaching, and which customers are about to leave, by asking Claude about 100% of your customer interactions.
+Ask Claude why customers call, chat, open tickets and cancel, in their own words. QueSee turns every conversation into structured, queryable data and joins it with your billing and network data in one record per customer. Claude can then tell you what drives contacts, which customers are at risk and what to do for each one, which competitors they name, and which calls are worth reviewing with each agent.
 
-Most contact centers review fewer than 5% of their conversations by hand. QueSee turns every call, chat and ticket into structured, queryable data (a score against your own SOP, the reason in the customer's own words, churn risk, competitors named) and joins it with order, billing and network data in one record per customer, so you can see who is about to leave, why, and what to do next. This plugin brings that record into Claude: the QueSee connector gives Claude read-only access, and the skills turn it into the reports your team already needs.
+**Built for:** customer service, support, CX and operations leaders at broadband, telecom and other service providers, from 5-person local offices to large contact centers.
 
-**Built for:** contact center, customer support, quality assurance, CX and retention teams at broadband, telecom and other service providers.
+**What operators report:** [360 Broadband](https://quesee.ai/case-studies/360broadband) retained 103 subscribers in its first year ($9,352 a month in recurring revenue protected) and raised agent SOP scores from 76.6% to 84.2%. [Amplex Internet](https://quesee.ai/case-studies/amplex) cut call review from 45 minutes to 5.
 
 ## What you can ask
 
@@ -36,7 +36,8 @@ The plugin contains only Markdown and JSON. It runs no code on your computer.
 ## Before you start
 
 - You need a QueSee account with a manager or admin role.
-- Connected apps are off by default. QueSee turns them on for your organization, and your admin picks who gets access in QueSee under **Settings > Connections > Connected apps**. To turn them on, or to start with QueSee, [contact QueSee](https://www.quesee.ai/contact).
+- Connected apps are off by default. QueSee turns them on for your organization, and your admin picks who gets access in QueSee under **Settings > Connections > Connected apps**. To turn them on, [contact QueSee](https://www.quesee.ai/contact).
+- **New to QueSee?** [Start a 14-day free trial](https://www.quesee.ai/auth/signup) (no credit card), or [get a free CX report](https://www.quesee.ai/cx-report) built from your own calls.
 
 ## Set up
 
