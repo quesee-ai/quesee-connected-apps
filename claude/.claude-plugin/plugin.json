@@ -1,8 +1,8 @@
 {
   "name": "quesee",
-  "displayName": "QueSee",
+  "displayName": "QueSee: Call Scoring, Churn Risk & Customer Experience",
   "version": "1.0.0",
-  "description": "Ask Claude about 100% of your scored customer calls, your agents and the subscribers at risk of leaving. Weekly CX briefs, agent coaching, save lists and call drivers from your own QueSee data. Read-only, with names and contact details replaced.",
+  "description": "Find out why customers call, complain and cancel. Score 100% of customer calls against your own SOP, coach agents on the exact steps they miss, and get a ranked list of customers at risk of churning with the next step to save each one. Built for contact center, support and retention teams at broadband, telecom and other service providers. Read-only, with names and contact details replaced.",
   "author": {
     "name": "QueSee AI, Inc.",
     "url": "https://www.quesee.ai"
@@ -16,12 +16,24 @@
   "license": "MIT",
   "keywords": [
     "customer-experience",
-    "retention",
+    "cx",
     "churn",
+    "churn-prediction",
+    "customer-retention",
+    "cancellations",
     "call-scoring",
-    "agent-coaching",
+    "call-center",
     "contact-center",
+    "quality-assurance",
+    "agent-coaching",
+    "agent-performance",
+    "sop-compliance",
+    "customer-support",
+    "voice-of-the-customer",
+    "call-reasons",
+    "competitor-mentions",
     "broadband",
-    "service-providers"
+    "telecom",
+    "internet-service-providers"
   ]
 }
