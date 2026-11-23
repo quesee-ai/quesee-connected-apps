@@ -1,6 +1,6 @@
 ---
 name: cx-weekly-brief
-description: Write a weekly customer experience brief from QueSee data for a CX, support or retention leader, covering call volume, SOP scores, escalations, subscribers at risk and what changed since last week. Use when the user asks how last week went, for a Monday brief, a weekly summary, or a report for their team or leadership.
+description: Write a weekly customer experience report from QueSee data for a CX, support, contact center or retention leader, covering call volume, quality scores, escalations, customers at risk of churning and what changed since last week. Use when the user asks how the support team or call center did last week, for a weekly CX or call center report, KPIs for leadership, a Monday brief, or what changed in customer experience.
 ---
 
 # Weekly CX brief
