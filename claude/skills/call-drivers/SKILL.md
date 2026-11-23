@@ -1,6 +1,6 @@
 ---
 name: call-drivers
-description: Find why customers call and what changed, using QueSee data, covering the top call types, the reasons behind them, repeat problems, escalations and the root cause each team can fix. Use when the user asks what drove calls this week or month, why call volume went up, what customers complain about, or what is causing repeat calls or cancellations.
+description: Find why customers call and what changed, using QueSee data, covering top call reasons and contact drivers, customer complaints, repeat problems, escalations and the root cause each team can fix. Use when the user asks why customers call, what they complain about, what drove calls this week or month, why call volume went up, what causes repeat calls, escalations or cancellations, or how to reduce call volume.
 ---
 
 # Call drivers
