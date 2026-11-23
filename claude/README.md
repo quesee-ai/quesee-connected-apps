@@ -1,6 +1,6 @@
 # QueSee: Why Customers Call, Chat & Cancel
 
-Ask Claude why customers call, chat, open tickets and cancel, in their own words. QueSee turns every conversation into structured, queryable data and joins it with your billing and network data in one record per customer. Claude can then tell you what drives contacts, which customers are at risk and what to do for each one, which competitors they name, and which calls are worth reviewing with each agent.
+Ask Claude why customers call, chat, open tickets and cancel, in their own words. QueSee turns every conversation into structured, queryable data and joins it with your billing and network data in one record per customer. Claude can then tell you what drives contacts, which customers are at risk and what to do for each one, which competitors they name, and which calls are worth reviewing for coaching.
 
 **Built for:** customer service, support, CX and operations leaders at broadband, telecom and other service providers, from 5-person local offices to large contact centers.
 
@@ -11,11 +11,13 @@ Ask Claude why customers call, chat, open tickets and cancel, in their own words
 | You want to know | Ask Claude | Skill |
 | - | - | - |
 | How last week went | "Give me the weekly CX report for last week." | `cx-weekly-brief` |
-| Who needs coaching, and on what | "Which agents skip the verification step in our SOP, and which calls should I review with them?" | `agent-coaching` |
+| What to coach, and on which calls | "Which SOP steps does the team miss most, and which calls should we review in training?" | `call-review` |
 | Who is about to cancel | "Which customers are at risk of churning this week, and what should we do for each one?" | `save-list` |
 | Why customers call | "What are the top reasons customers called this month, and what changed from last month?" | `call-drivers` |
 | Who customers are switching to | "Which competitors do customers mention, and why?" | `competitor-mentions` |
 | Anything else | "How many calls were escalated last month, by department?" | `quesee-data` |
+
+**Coaching, two places:** in Claude, QueSee answers for the team and call by call: the SOP steps the team misses, the calls worth reviewing, and a coaching note on each call. Agent scorecards stay in the QueSee app, where your managers and agents see them under your own access rules.
 
 The `quesee-data` skill sets the rules for every answer: count over 100% of records, never estimate from a sample, and link every call and customer back to QueSee so you can check it.
 
@@ -26,7 +28,7 @@ The `quesee-data` skill sets the rules for every answer: count over 100% of reco
 | QueSee connector (`.mcp.json`) | Connects Claude to `https://api.quesee.ai/mcp` with three read-only tools: `quesee_schema`, `quesee_values` and `quesee_query` |
 | `quesee-data` skill | How to query QueSee correctly: fields, limits, links, privacy and errors |
 | `cx-weekly-brief` skill | A one-screen weekly customer experience report, with changes from last week |
-| `agent-coaching` skill | Coaching plans per agent: the SOP steps they miss and the calls to review |
+| `call-review` skill | The SOP steps the team misses most, and the calls worth reviewing, with a coaching note on each |
 | `save-list` skill | A ranked list of customers at risk of churning, with reasons, open promises and next steps |
 | `call-drivers` skill | Top call reasons and complaints, what changed, and the fix each team owns |
 | `competitor-mentions` skill | Which competitors customers name, why, and who is deciding now |
@@ -44,7 +46,7 @@ The plugin contains only Markdown and JSON. It runs no code on your computer.
 1. Add the QueSee plugin from the Claude directory.
 2. Open the plugin's **Connectors** tab and connect QueSee.
 3. Sign in to QueSee when asked, and select **Allow**.
-4. Ask a question, such as "Which agents scored lowest last week?"
+4. Ask a question, such as "Why did customers call last week?"
 
 ## Data and privacy
 
