@@ -1,6 +1,6 @@
 ---
 name: agent-coaching
-description: Build agent coaching plans from QueSee call scores, covering which agents score lowest, which SOP or script steps they skip, example calls to review and a coaching note per agent. Use when the user asks who needs coaching, how agents are performing, for agent scorecards or QA results, which agents miss a step in the SOP, why an agent's quality score dropped, or to prepare one-on-ones and team training.
+description: Find which calls are worth reviewing with each agent, using QueSee scores against your own SOP: the steps agents most often miss, example calls and a short coaching note. Use when the user asks which agents need coaching or help, how reps are following the SOP or procedures, whether the after-hours or support desk follows the process, for agent scorecards or QA results, why an agent's score dropped, or to prepare one-on-ones and training.
 ---
 
 # Agent coaching
