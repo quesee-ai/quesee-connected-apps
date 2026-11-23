@@ -1,8 +1,8 @@
 {
   "name": "quesee",
-  "displayName": "QueSee: Call Scoring, Churn Risk & Customer Experience",
+  "displayName": "QueSee: Customer Experience, Churn Risk & Quality Scoring",
   "version": "1.0.0",
-  "description": "Find out why customers call, complain and cancel. Score 100% of customer calls against your own SOP, coach agents on the exact steps they miss, and get a ranked list of customers at risk of churning with the next step to save each one. Built for contact center, support and retention teams at broadband, telecom and other service providers. Read-only, with names and contact details replaced.",
+  "description": "Find out why customers call, chat, open tickets and cancel. QueSee joins every call, chat, ticket, bill and network signal into one record per customer, scores conversations against your own SOP, coaches agents on the exact steps they miss, and ranks customers at risk of churning with the next step to save each one. Built for contact center, support, CX and retention teams at broadband, telecom and other service providers. Read-only, with names and contact details replaced.",
   "author": {
     "name": "QueSee AI, Inc.",
     "url": "https://www.quesee.ai"
@@ -34,6 +34,10 @@
     "competitor-mentions",
     "broadband",
     "telecom",
-    "internet-service-providers"
+    "internet-service-providers",
+    "omnichannel",
+    "chat-support",
+    "support-tickets",
+    "helpdesk"
   ]
 }
