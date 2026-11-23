@@ -1,6 +1,6 @@
 ---
 name: quesee-data
-description: How to answer questions from QueSee data with the QueSee connector tools (quesee_schema, quesee_values, quesee_query). Use whenever the user asks about their customer calls, call scores, SOP compliance, agents, subscribers, churn risk, retention, cancellations or competitors, and the QueSee connector is connected.
+description: Answer questions about customer calls, call quality scores, agent performance, SOP and script compliance, customer churn risk, cancellations, retention and competitor mentions from QueSee data (quesee_schema, quesee_values, quesee_query). Use whenever the user asks about their contact center, call center, support team, customer complaints, customers at risk of leaving, or why customers call or cancel, and the QueSee connector is connected.
 ---
 
 # Answering from QueSee data
